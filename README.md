@@ -11,6 +11,7 @@ Note 1: The code fails to give right output if:
     1. The limit tends to infinity of the function L is not finite.
     2. The value of the function L is infinite at some point between 0 to infinity.
     3. The function L is discontionus between 0 to infinity.
+   
 Note 2: The need to input value of s:
     1. The final answer from comes out to be in addition of terms of trapezoidal rule(in form of y0+y1+y2......yn) which is very long.
     2. I tried my best to find a way to evalute such terms but was unable to.
