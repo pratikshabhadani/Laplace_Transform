@@ -7,12 +7,16 @@ Scratch implemantation of Laplace Transform;
 3. Now first we check if the laplace transform of given function can be calculated by my code by checking if the limit tends to infinity of the function should be finite, if its not the code simply stops displaying the error message.
 4. If the tranform is possible our main challange is now to find a number big enough so that the integration value at infinity and at that number are almost the same, this is done in function upper bound.
 5. Once we have done that we the integration value from trapezoidal rule.
-Note 1: The code fails to give right output if:
+
+   
+**Note 1:** The code fails to give right output if:
+
     1. The limit tends to infinity of the function L is not finite.
     2. The value of the function L is infinite at some point between 0 to infinity.
     3. The function L is discontionus between 0 to infinity.
    
-Note 2: The need to input value of s:
+**Note 2:** The need to input value of s:
+
     1. The final answer from comes out to be in addition of terms of trapezoidal rule(in form of y0+y1+y2......yn) which is very long.
     2. I tried my best to find a way to evalute such terms but was unable to.
 
