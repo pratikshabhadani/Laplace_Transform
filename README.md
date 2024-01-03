@@ -1,5 +1,6 @@
 # Laplace_Transform
 Scratch implemantation of Laplace Transform;
+
 **In the file lp_tr.py following implementations have been done:**
 1. The formula of Laplace transform is integration from 0 to infinity of e^(-sx)*f(x). f(x) being the function we are finding laplace of. Lets call e^(-sx)*f(x) as L.
 2. The code takes input as the function and value of s to give output.
